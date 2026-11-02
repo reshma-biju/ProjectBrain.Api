@@ -1,0 +1,6 @@
+@ProjectBrain.Api_HostAddress = http://localhost:5048
+
+GET {{ProjectBrain.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
