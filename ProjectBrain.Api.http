@@ -1,6 +1,9 @@
 @ProjectBrain.Api_HostAddress = http://localhost:5048
 
-GET {{ProjectBrain.Api_HostAddress}}/weatherforecast/
+### Check API health
+GET {{ProjectBrain.Api_HostAddress}}/health
 Accept: application/json
 
-###
+### Check database health
+GET {{ProjectBrain.Api_HostAddress}}/health/db
+Accept: application/json
